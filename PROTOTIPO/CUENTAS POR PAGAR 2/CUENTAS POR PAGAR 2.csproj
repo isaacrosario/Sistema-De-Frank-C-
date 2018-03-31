@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B1D5870-F4C5-4492-BEC3-D5D1518AD320}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CUENTAS_POR_PAGAR_2</RootNamespace>
+    <AssemblyName>CUENTAS POR PAGAR 2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DATOSCHEQUES.cs" />
+    <Compile Include="DATOSESTADODECUENTAS.cs" />
+    <Compile Include="DATOSFACTURAS.cs" />
+    <Compile Include="DATOSPROVEEDORES.cs" />
+    <Compile Include="DATOSUSUARIOS.cs" />
+    <Compile Include="FAGREGARCHEQUES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAGREGARCHEQUES.Designer.cs">
+      <DependentUpon>FAGREGARCHEQUES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAGREGARFACT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAGREGARFACT.Designer.cs">
+      <DependentUpon>FAGREGARFACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAGREGARPROV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAGREGARPROV.Designer.cs">
+      <DependentUpon>FAGREGARPROV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCHEQUES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCHEQUES.Designer.cs">
+      <DependentUpon>FCHEQUES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FESTADO DE CUENTAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FESTADO DE CUENTAS.Designer.cs">
+      <DependentUpon>FESTADO DE CUENTAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FFACTURAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFACTURAS.Designer.cs">
+      <DependentUpon>FFACTURAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FINICIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINICIO.Designer.cs">
+      <DependentUpon>FINICIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMENUPRI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMENUPRI.Designer.cs">
+      <DependentUpon>FMENUPRI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMODIFICARCHEQUES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMODIFICARCHEQUES.Designer.cs">
+      <DependentUpon>FMODIFICARCHEQUES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMODIFICARFACT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMODIFICARFACT.Designer.cs">
+      <DependentUpon>FMODIFICARFACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMODIFICARPROV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMODIFICARPROV.Designer.cs">
+      <DependentUpon>FMODIFICARPROV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPROVEEDORES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPROVEEDORES.Designer.cs">
+      <DependentUpon>FPROVEEDORES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRCHEQUES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRCHEQUES.Designer.cs">
+      <DependentUpon>FRCHEQUES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRESTADO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRESTADO.Designer.cs">
+      <DependentUpon>FRESTADO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRFACTURAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRFACTURAS.Designer.cs">
+      <DependentUpon>FRFACTURAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRPROVEEDORES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRPROVEEDORES.Designer.cs">
+      <DependentUpon>FRPROVEEDORES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FAGREGARCHEQUES.resx">
+      <DependentUpon>FAGREGARCHEQUES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAGREGARFACT.resx">
+      <DependentUpon>FAGREGARFACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAGREGARPROV.resx">
+      <DependentUpon>FAGREGARPROV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCHEQUES.resx">
+      <DependentUpon>FCHEQUES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FESTADO DE CUENTAS.resx">
+      <DependentUpon>FESTADO DE CUENTAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FFACTURAS.resx">
+      <DependentUpon>FFACTURAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINICIO.resx">
+      <DependentUpon>FINICIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMENUPRI.resx">
+      <DependentUpon>FMENUPRI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMODIFICARCHEQUES.resx">
+      <DependentUpon>FMODIFICARCHEQUES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMODIFICARFACT.resx">
+      <DependentUpon>FMODIFICARFACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMODIFICARPROV.resx">
+      <DependentUpon>FMODIFICARPROV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPROVEEDORES.resx">
+      <DependentUpon>FPROVEEDORES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRCHEQUES.resx">
+      <DependentUpon>FRCHEQUES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRESTADO.resx">
+      <DependentUpon>FRESTADO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRFACTURAS.resx">
+      <DependentUpon>FRFACTURAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRPROVEEDORES.resx">
+      <DependentUpon>FRPROVEEDORES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RCHEQUES.rdlc" />
+    <EmbeddedResource Include="RESTADO.rdlc" />
+    <EmbeddedResource Include="RFACTURAS.rdlc" />
+    <EmbeddedResource Include="RPROVEEDORES.rdlc" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

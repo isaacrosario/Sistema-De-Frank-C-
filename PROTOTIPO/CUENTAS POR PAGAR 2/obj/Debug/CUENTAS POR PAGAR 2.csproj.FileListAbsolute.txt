@@ -1,0 +1,5 @@
+C:\Users\Administrador\Videos\CUENTAS POR PAGAR 2\CUENTAS POR PAGAR 2\bin\Debug\CUENTAS POR PAGAR 2.exe.config
+C:\Users\Administrador\Desktop\CUENTAS POR PAGAR 2\CUENTAS POR PAGAR 2\bin\Debug\CUENTAS POR PAGAR 2.exe.config
+C:\Users\Administrador\Videos\PROTOTIPO\CUENTAS POR PAGAR 2\bin\Debug\CUENTAS POR PAGAR 2.exe.config
+C:\Users\Administrador\Desktop\PROTOTIPO\CUENTAS POR PAGAR 2\bin\Debug\CUENTAS POR PAGAR 2.exe.config
+C:\Users\Administrador\Documents\PROTOTIPO\CUENTAS POR PAGAR 2\bin\Debug\CUENTAS POR PAGAR 2.exe.config

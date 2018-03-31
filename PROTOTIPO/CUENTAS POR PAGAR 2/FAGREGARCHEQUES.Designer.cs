@@ -1,0 +1,162 @@
+﻿namespace CUENTAS_POR_PAGAR_2
+{
+    partial class FAGREGARCHEQUES
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.BAGREGAR = new System.Windows.Forms.Button();
+            this.TFECHACHEQ = new System.Windows.Forms.TextBox();
+            this.TVALCHEQ = new System.Windows.Forms.TextBox();
+            this.TNUMFACT = new System.Windows.Forms.TextBox();
+            this.TNUMCHEQ = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // BAGREGAR
+            // 
+            this.BAGREGAR.Location = new System.Drawing.Point(135, 213);
+            this.BAGREGAR.Margin = new System.Windows.Forms.Padding(2);
+            this.BAGREGAR.Name = "BAGREGAR";
+            this.BAGREGAR.Size = new System.Drawing.Size(74, 25);
+            this.BAGREGAR.TabIndex = 31;
+            this.BAGREGAR.Text = "AGREGAR";
+            this.BAGREGAR.UseVisualStyleBackColor = true;
+            this.BAGREGAR.Click += new System.EventHandler(this.BAGREGAR_Click);
+            // 
+            // TFECHACHEQ
+            // 
+            this.TFECHACHEQ.Location = new System.Drawing.Point(151, 127);
+            this.TFECHACHEQ.Margin = new System.Windows.Forms.Padding(2);
+            this.TFECHACHEQ.Name = "TFECHACHEQ";
+            this.TFECHACHEQ.Size = new System.Drawing.Size(156, 20);
+            this.TFECHACHEQ.TabIndex = 30;
+            this.TFECHACHEQ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TFECHACHEQ_KeyPress);
+            // 
+            // TVALCHEQ
+            // 
+            this.TVALCHEQ.Location = new System.Drawing.Point(151, 101);
+            this.TVALCHEQ.Margin = new System.Windows.Forms.Padding(2);
+            this.TVALCHEQ.Name = "TVALCHEQ";
+            this.TVALCHEQ.Size = new System.Drawing.Size(156, 20);
+            this.TVALCHEQ.TabIndex = 29;
+            this.TVALCHEQ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TVALCHEQ_KeyPress);
+            // 
+            // TNUMFACT
+            // 
+            this.TNUMFACT.Location = new System.Drawing.Point(151, 68);
+            this.TNUMFACT.Margin = new System.Windows.Forms.Padding(2);
+            this.TNUMFACT.Name = "TNUMFACT";
+            this.TNUMFACT.Size = new System.Drawing.Size(156, 20);
+            this.TNUMFACT.TabIndex = 28;
+            this.TNUMFACT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TNUMFACT_KeyPress);
+            // 
+            // TNUMCHEQ
+            // 
+            this.TNUMCHEQ.Location = new System.Drawing.Point(151, 35);
+            this.TNUMCHEQ.Margin = new System.Windows.Forms.Padding(2);
+            this.TNUMCHEQ.Name = "TNUMCHEQ";
+            this.TNUMCHEQ.Size = new System.Drawing.Size(105, 20);
+            this.TNUMCHEQ.TabIndex = 27;
+            this.TNUMCHEQ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TNUMCHEQ_KeyPress);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(33, 131);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(90, 13);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "FECHA CHEQUE";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(33, 105);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(91, 13);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "VALOR CHEQUE";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(33, 72);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 13);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "NUMERO FACTURA";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(33, 39);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "NUMERO CHEQUE";
+            // 
+            // FAGREGARCHEQUES
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(352, 266);
+            this.Controls.Add(this.BAGREGAR);
+            this.Controls.Add(this.TFECHACHEQ);
+            this.Controls.Add(this.TVALCHEQ);
+            this.Controls.Add(this.TNUMFACT);
+            this.Controls.Add(this.TNUMCHEQ);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "FAGREGARCHEQUES";
+            this.Text = "FAGREGARCHEQUES";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button BAGREGAR;
+        private System.Windows.Forms.TextBox TFECHACHEQ;
+        private System.Windows.Forms.TextBox TVALCHEQ;
+        private System.Windows.Forms.TextBox TNUMFACT;
+        private System.Windows.Forms.TextBox TNUMCHEQ;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+    }
+}
